@@ -3,10 +3,11 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
+
 import scrapy
 
-
 class CrawlerProjectItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    file_urls = scrapy.Field()
+    files = scrapy.Field
+    original_file_name = scrapy.Field()
+    title = scrapy.Field()
