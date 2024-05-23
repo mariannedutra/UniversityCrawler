@@ -20,6 +20,6 @@ You can install Scrapy using pip: **pip install Scrapy**
 4. **Export Data**: Once the crawler completes its task, the extracted data will be available in the specified output format.
 5. **Analysis and Utilization**: Analyze the extracted data for research purposes, academic studies, or any other relevant applications.
 5. **Monitor Progress**: Scrapy will display logs and progress information in the terminal as the spider runs. You can monitor the scraping process and any errors or warnings that occur.
-6. **View Output**: Once the spider completes its task, you can find the extracted files in '/downloads' and the saved informations in the `output.json` file.
+6. **View Output**: Once the spider completes its task, you can find the extracted files in '/downloads' (create this directory in the root project) and the saved informations in the `output.json` file.
 
 
